@@ -1,0 +1,44 @@
+.container {
+    width: 500px;
+    height: 700px;
+    border: 1px  solid;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tetris {
+    width: 500px;
+    height: 900px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.tetris-item {
+    width: 50px;
+    height: 50px;
+    border: 1px solid#acaaaa;
+    box-sizing: border-box;
+}
+
+.fixed,.active {
+    background-color: darkolivegreen;
+}
+
+input {
+    display: block;
+    margin: 40px auto;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.controls {
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
